@@ -1,0 +1,5 @@
+@api = http://localhost:3000/inventory
+
+GET {{api}}
+
+### //esto es para separar los endpoints

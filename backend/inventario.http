@@ -1,0 +1,20 @@
+@api=http://localhost:3000/inventory
+
+GET {{api}}
+
+###
+POST {{api}}
+Content-Type: application/json
+
+{
+  "name": "NombreDepartamento",
+  "count": 10,
+  "est": true,
+  "created_at": "2023-01-01 12:00:00",
+  "updated_at": "2023-01-01 12:00:00"
+}
+
+###
+DELETE {{api}}/18
+
+
